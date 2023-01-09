@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Blog - сайт публикации постов
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Цель:**
+- Попробовать backend разработку(Node, express, MongoDB)
+- Создать MERN приложение
 
-## Available Scripts
+**О приложении:**
+- Увеличивает просмотры при открытии поста
+- Сохраняет токен в local storage
+- Написание постов разрешено только авторизированным пользователям
+- Редактирование/удаление постов разрешено только авторам
 
-In the project directory, you can run:
+**Домашнее задание:**
+- Сделать навигацию по тегам (Не выполнено)
+- Возможность писать комментарии (Не выполнено)
+- Динамическое добавление комментариев на главную страницу (Не выполнено)
+- Переключение на вкладку "Популярное" (Не выполнено)
 
-### `npm start`
+## Быстрый старт
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### `npm i` – установить зависимости проекта
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### `npm run start` – запуск devServer на http://localhost:4444/
 
-### `npm test`
+## Скрипты
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### `npm run start` – запуск devServer на http://localhost:4444/
 
-### `npm run build`
+#### `npm run build` – production сборка проекта
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Используемые библиотеки
+- [axios](https://github.com/axios/axios)
+- [clsx](https://github.com/lukeed/clsx)
+- [easymde](https://github.com/Ionaru/easy-markdown-editor)
+- [react-simplemde-editor](https://github.com/RIP21/react-simplemde-editor)
+- [react-router-dom](https://github.com/remix-run/react-router)
+- [react-redux](https://github.com/reduxjs/react-redux)
+- [react-markdown](https://github.com/remarkjs/react-markdown)
+- [react-hook-form](https://github.com/react-hook-form/react-hook-form)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Макеты
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<table>
+  <tr>
+    <th><a href="https://disk.yandex.ru/client/disk/%D0%B1%D0%BB%D0%BE%D0%B3?idApp=client&dialog=slider&idDialog=%2Fdisk%2F%D0%B1%D0%BB%D0%BE%D0%B3%2Fmain-page.png">Главная страница</a></th>
+        <th><a href="https://disk.yandex.ru/client/disk/%D0%B1%D0%BB%D0%BE%D0%B3?idApp=client&dialog=slider&idDialog=%2Fdisk%2F%D0%B1%D0%BB%D0%BE%D0%B3%2Fregister_page.png" target="_blank">Страница регистрации</a></th> 
+    <th><a href="https://disk.yandex.ru/client/disk/%D0%B1%D0%BB%D0%BE%D0%B3?idApp=client&dialog=slider&idDialog=%2Fdisk%2F%D0%B1%D0%BB%D0%BE%D0%B3%2Flogin_page.png">Страница авторизации</a></th>
+    <th><a href="https://disk.yandex.ru/client/disk/%D0%B1%D0%BB%D0%BE%D0%B3?idApp=client&dialog=slider&idDialog=%2Fdisk%2F%D0%B1%D0%BB%D0%BE%D0%B3%2Fcreate_page.png">Страница написания поста</a></th>
+    <th><a href="https://disk.yandex.ru/client/disk/%D0%B1%D0%BB%D0%BE%D0%B3?idApp=client&dialog=slider&idDialog=%2Fdisk%2F%D0%B1%D0%BB%D0%BE%D0%B3%2Fpost_page.png">Страница поста</a></th> 
+  </tr>
+</table>
 
-### `npm run eject`
+### Структура проекта
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+├── public/                          # Шаблон приложения
+├── src/                             # Исходники
+│   ├── components/                  # UI-компоненты проекта
+│   ├── pages/                       # Страницы проекта
+│   ├── store/                       # State проекта
+│   │   ├── slices/                  # Разделение запросов на бэкенд
+│   │   │   ├── auth.js              # Запросы для регистрации/авторизации
+│   │   │   └── posts.js             # Запросы для получения постов
+│   │   └── store.js                 # Редюсер для всех стейтов
+│   ├── App.js                       # Файл роутов проекта
+│   ├── axios.js                     # Файл упрощения axios запроса
+│   ├── index.js                     # Главный файл проекта
+│   ├── index.scss                   # Стили
+│   └── theme.js                     # Файл с темой проекта
+├── .gitignore                       # Список исключённых файлов из Git
+├── package.json                     # Список модулей и прочей информации
+├── package-lock.json                # Зависимости верхнего уровня
+└── README.md                        # Документация шаблона
+```

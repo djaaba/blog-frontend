@@ -15,7 +15,7 @@ export const Registration = () => {
   const dispatch = useDispatch();
   const isAuth = useSelector(selectIsAuth)
 
-  const { register, handleSubmit, setError, formState: { errors, isValid }, } = useForm({
+  const { register, handleSubmit, formState: { errors, isValid }, } = useForm({
     defaultValues: {
       fullName: "Тест Юзер",
       email: 'test5@test.ru',
