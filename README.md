@@ -20,11 +20,11 @@
 
 #### `npm i` – установить зависимости проекта
 
-#### `npm run start` – запуск devServer на http://localhost:4444/
+#### `npm run start` – запуск devServer на http://localhost:3000/
 
 ## Скрипты
 
-#### `npm run start` – запуск devServer на http://localhost:4444/
+#### `npm run start` – запуск devServer на http://localhost:3000/
 
 #### `npm run build` – production сборка проекта
 
